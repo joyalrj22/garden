@@ -1,0 +1,26 @@
+<li class="media">
+										
+  <img class="media-object rounded-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="profile">
+
+<div class="media-body">
+  <div class="well well-lg">
+	  <h4 class="media-heading text-uppercase reviews">Marco </h4>
+	  <p class="media-comment">
+		Great snippet! Thanks for sharing.
+	  </p>
+	
+  </div>
+	<p class = "date">dd/mm/yyyy</p>
+</div>
+
+</li>
+									  
+					
+
+					
+									  
+
+									  
+									  
+									  
+									  

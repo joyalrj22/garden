@@ -1,0 +1,26 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "gardeningsoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jest": "^24.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "mustache": "^3.0.1",
+    "querystring": "^0.2.0",
+    "serve-static": "^1.13.2",
+    "supertest": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
