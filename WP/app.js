@@ -197,7 +197,7 @@ api.get('/diary', function (req, res) {
 	fs.readFile('JSON/diary.json', 'utf8', function readFileCallback(err, data){
     if (err){
         console.log(err);
-    } else{
+    
     } else {
     res.send(JSON.parse(data));
 }})
