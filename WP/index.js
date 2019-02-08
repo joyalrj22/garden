@@ -1,6 +1,6 @@
 const api = require('./app');
 
 
-api.listen(8080, () => {
- console.log("Server running on port 8080");
+api.listen(8080||process.env.PORT, () => {
+ console.log("Server running");
 });
