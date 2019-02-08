@@ -28,7 +28,9 @@ api.use(function(req, res, next){
 	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 	next();
 });
-api.get('/', (req, res) => res.render('public/GardeningSoc.html'));
+api.get('/', function(req, res){
+	res.sendFile(path.join(__dirname + 'public/index.html'));
+});
 api.get('/people', function (req, res) {
 	var userData = fs.readFileSync('JSON/user.json').toString();
     userDetails = JSON.parse(userData);
